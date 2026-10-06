@@ -1,5 +1,5 @@
-price=int(input("Enter the price"))
-quantity=int(input("Enter quantity "))
+price=float(input("Enter the price:"))
+quantity=int(input("Enter quantity: "))
 
 total=price*quantity
-print("The total price is ", total)
+print("The total price is: ", total)
